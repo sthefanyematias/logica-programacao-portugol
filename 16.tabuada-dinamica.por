@@ -7,7 +7,7 @@ programa
 
 		faca
 		{
-			escreva("Digite um número para ver a tabuada: ")
+			escreva("digite um número para ver a tabuada: ")
 			leia(numero)
 			limpa()
 
@@ -16,12 +16,12 @@ programa
 				escreva(numero, " x ", i, " = ", numero * i, "\n")
 			}
 
-			escreva("\nDeseja calcular outra tabuada? (s/n): ")
+			escreva("\ndeseja calcular outra tabuada? (s/n): ")
 			leia(continuar)
 			limpa()
 
 		} enquanto (continuar == 's' ou continuar == 'S')
 		
-		escreva("Operação finalizada.")
+		escreva("operação finalizada.")
 	}
 }
