@@ -59,10 +59,10 @@ programa
 			} enquanto(ganhou == 0 e jogadas < 9)
 
 			limpa()
-			se(ganhou != 0) escreva("\nParabéns Jogador ", ganhou, ". Você venceu!")
-			senao escreva("\nEmpate!")
+			se(ganhou != 0) escreva("\nparabéns jogador ", ganhou, ". você venceu!")
+			senao escreva("\nempate!")
 
-			escreva("\nDigite 1 para jogar novamente ou 0 para sair: ")
+			escreva("\ndigite 1 para jogar novamente ou 0 para sair: ")
 			leia(opcao)
 			limpa()
 		} enquanto(opcao == 1)
