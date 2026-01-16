@@ -6,21 +6,21 @@ programa
 
 		para (inteiro i = 0; i < 5; i++)
 		{
-			escreva("Registro ", i + 1, " de 5\n")
-			escreva("Nome: ")
+			escreva("registro ", i + 1, " de 5\n")
+			escreva("nome: ")
 			leia(agenda[i][0])
-			escreva("Endereço: ")
+			escreva("endereço: ")
 			leia(agenda[i][1])
-			escreva("Telefone: ")
+			escreva("telefone: ")
 			leia(agenda[i][2])
 			limpa()
 		}	
 
-		escreva("AGENDA DE CONTATOS\n")
+		escreva("agenda de contatos\n")
 		escreva("--------------------------------------------------\n")
 		para (inteiro i = 0; i < 5; i++)
 		{
-			escreva("Nome: ", agenda[i][0], " | End: ", agenda[i][1], " | Tel: ", agenda[i][2], "\n")
+			escreva("nome: ", agenda[i][0], " | end: ", agenda[i][1], " | tel: ", agenda[i][2], "\n")
 		}
 	}
 }
