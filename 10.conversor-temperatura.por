@@ -7,14 +7,14 @@ programa
 
 		faca
 		{
-			escreva("Informe a temperatura em ºC: ")
+			escreva("informe a temperatura em °c: ")
 			leia(celsius)
 
 			fahrenheit = (celsius * 9/5) + 32
 
-			escreva(celsius, " ºC equivale a ", fahrenheit, " ºF\n")
+			escreva(celsius, " °c equivale a ", fahrenheit, " °F\n")
 
-			escreva("\nDeseja converter outro valor? (s/n): ")
+			escreva("\ndeseja converter outro valor? (s/n): ")
 			leia(continuar)
 			limpa()
 		} enquanto (continuar == 's' ou continuar == 'S')
