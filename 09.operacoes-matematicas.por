@@ -4,24 +4,24 @@ programa
 	{
 		inteiro a, b
 
-		escreva("Digite o primeiro número: ")
+		escreva("digite o primeiro número: ")
 		leia(a)
-		escreva("Digite o segundo número: ")
+		escreva("digite o segundo número: ")
 		leia(b)
 		limpa()
 
-		escreva("Soma: ", a + b, "\n")
-		escreva("Subtração: ", a - b, "\n")
-		escreva("Multiplicação: ", a * b, "\n")
+		escreva("soma: ", a + b, "\n")
+		escreva("subtração: ", a - b, "\n")
+		escreva("multiplicação: ", a * b, "\n")
 		
 		se (b != 0) 
 		{
-			escreva("Divisão: ", a / b, "\n")
-			escreva("Módulo (Resto): ", a % b, "\n")
+			escreva("divisão: ", a / b, "\n")
+			escreva("módulo (resto): ", a % b, "\n")
 		}
 		senao 
 		{
-			escreva("Divisão: Não é possível dividir por zero.\n")
+			escreva("divisão: não é possível dividir por zero.\n")
 		}
 	}
 }
