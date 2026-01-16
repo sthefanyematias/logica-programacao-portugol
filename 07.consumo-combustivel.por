@@ -7,20 +7,20 @@ programa
 
 		faca
 		{
-			escreva("Distância percorrida (km): ")
+			escreva("distância percorrida (km): ")
 			leia(distancia)
 
-			escreva("Volume de combustível gasto (l): ")
+			escreva("volume de combustível gasto (l): ")
 			leia(volume)
 
 			consumo = distancia / volume
-			escreva("Consumo médio: ", consumo, " km/l\n")
+			escreva("consumo médio: ", consumo, " km/l\n")
 
-			escreva("\nDeseja realizar novo cálculo? (s/n): ")
+			escreva("\ndeseja realizar novo cálculo? (s/n): ")
 			leia(continuar)
 			limpa()
 		} enquanto (continuar == 's' ou continuar == 'S')
 		
-		escreva("Sistema encerrado.")
+		escreva("sistema encerrado.")
 	}
 }
