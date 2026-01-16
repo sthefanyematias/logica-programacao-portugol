@@ -5,15 +5,15 @@ programa
 
 	funcao inicio()
 	{
-		const inteiro Linhas = 10, Colunas = 5
-		inteiro matriz[Linhas][Colunas]
+		const inteiro linhas = 10, colunas = 5
+		inteiro matriz[linhas][colunas]
 		inteiro maior, menor, soma = 0
 		inteiro lin_maior = 0, col_maior = 0, lin_menor = 0, col_menor = 0
 		real media
 
-		para (inteiro l = 0; l < Linhas; l++)
+		para (inteiro l = 0; l < linhas; l++)
 		{
-			para (inteiro c = 0; c < Colunas; c++)
+			para (inteiro c = 0; c < colunas; c++)
 			{
 				matriz[l][c] = u.sorteia(0, 99)
 				soma += matriz[l][c]
@@ -23,9 +23,9 @@ programa
 		maior = matriz[0][0]
 		menor = matriz[0][0]
 
-		para (inteiro l = 0; l < Linhas; l++)
+		para (inteiro l = 0; l < linhas; l++)
 		{
-			para (inteiro c = 0; c < Colunas; c++)
+			para (inteiro c = 0; c < colunas; c++)
 			{
 				se (matriz[l][c] > maior)
 				{
@@ -42,12 +42,12 @@ programa
 			}
 		}
 
-		media = t.inteiro_para_real(soma) / (Linhas * Colunas)
+		media = t.inteiro_para_real(soma) / (linhas * colunas)
 
-		escreva("Relatório da Matriz Aleatória:\n")
-		escreva("Soma Total: ", soma, "\n")
-		escreva("Média dos Valores: ", media, "\n")
-		escreva("Maior Valor: ", maior, " na posição [", lin_maior, "][", col_maior, "]\n")
-		escreva("Menor Valor: ", menor, " na posição [", lin_menor, "][", col_menor, "]\n")
+		escreva("relatório da matriz aleatória:\n")
+		escreva("soma total: ", soma, "\n")
+		escreva("média dos valores: ", media, "\n")
+		escreva("maior valor: ", maior, " na posição [", lin_maior, "][", col_maior, "]\n")
+		escreva("menor valor: ", menor, " na posição [", lin_menor, "][", col_menor, "]\n")
 	}
 }
