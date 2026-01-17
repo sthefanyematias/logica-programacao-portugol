@@ -1,6 +1,6 @@
 # Fundamentos de Algoritmos e Lógica de Programação com Portugol
 
-Este repositório desenvolve fundamentos sólidos em lógica de programação desenvolvida durante o curso técnico em Informática. O foco central foi o desenvolvimento de algoritmos estruturados para a resolução de problemas computacionais, demonstrando domínio em conceitos fundamentais que servem de alicerce para qualquer linguagem de alto nível (Java, Python, C#, etc.).
+Este repositório desenvolve fundamentos sólidos em lógica de programação adquiridos durante o curso técnico em Informática. O foco central foi o desenvolvimento de algoritmos estruturados para a resolução de problemas computacionais, demonstrando domínio em conceitos fundamentais que servem de alicerce para qualquer linguagem de alto nível (Java, Python, C#, etc.).
 
 ### Objetivo
 Demonstrar a aplicação prática de raciocínio lógico, estruturação de dados e eficiência algorítmica por meio de implementações que simulam desafios reais do desenvolvimento de software.
